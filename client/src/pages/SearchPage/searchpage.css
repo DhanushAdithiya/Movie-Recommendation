@@ -1,0 +1,31 @@
+.search-movie {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box {
+  height: 4rem;
+  width: 100%;
+}
+
+.searchBtn {
+  width: 30%;
+  height: 3em;
+}
+
+.suggestions {
+  border: 2px solid white;
+  color: white;
+  width: 50%;
+  text-align: center;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.suggestions:hover {
+  background-color: cadetblue;
+}

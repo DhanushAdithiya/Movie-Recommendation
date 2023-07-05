@@ -1,23 +1,19 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import SearchPage from "./pages/SearchPage/SearchPage";
+import MovieInfo from "./pages/MovieInfo/MovieInfo";
+import Landing from "./pages/Landing/Landing";
+import "../src/css/reset.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" Component={Landing} />
+        <Route path="/search" Component={SearchPage} />
+        <Route path="/movie/:id" Component={MovieInfo} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
