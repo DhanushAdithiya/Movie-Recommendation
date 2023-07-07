@@ -15,7 +15,7 @@ Here are some of the features I intend to add:
 
 ## ScreenShots of the Website
 ### Landing Page
-![image](https://github.com/DhanushAdithiya/Movie-Recommendation/assets/84760124/fc893fae-f045-40f2-ace2-581db8f28802)
+![image](https://github.com/DhanushAdithiya/Movie-Recommendation/assets/84760124/75c11cba-139a-425c-991f-768d9812f4dc)
 
 ### Movie Info Page
 ![image](https://github.com/DhanushAdithiya/Movie-Recommendation/assets/84760124/135023b5-7fff-4d96-91e7-5024bb785b21)
